@@ -1,5 +1,5 @@
 *{
-    padding: 0;
+    
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -8,8 +8,10 @@
 }
 
 body{
+    align-items: inherit;
+    position: absolute;
     width: 100%;
-    min-height: 180vh;
+    min-height: 113vh;
     background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
@@ -18,9 +20,37 @@ body{
 }
 
 .instagram-wrapper{
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: start;
     width: 60%;
-    
+    height: 100%;
 }
+
+.instagram-phone{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+
+
+
+.instagram-phone img{
+    height: 48rem;
+}
+
+.print{
+    position: absolute;
+    margin-right: ;
+    display: flex; 
+    width: 43%;
+}
+
+.print img{
+    height: 35rem;
+}
+
