@@ -8,6 +8,7 @@
 }
 
 body{
+    
     align-items: inherit;
     position: absolute;
     width: 100%;
@@ -116,10 +117,11 @@ body{
     border-radius: 4px;
     color: white;
     color: rgba(var(--eca,255,255,255),1);
-    padding: 7px 10px;
+    padding: 6px 10px;
     border-width: 2px;
     border-style: outset;
     font: 400 13.3333px Arial;
     line-height: 18px;
     font-size: 14px;
+    cursor: head;
 }
