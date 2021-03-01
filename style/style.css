@@ -45,7 +45,7 @@ body{
 
 .print{
     position: absolute;
-    margin-right: ;
+    
     display: flex; 
     width: 43%;
 }
@@ -54,3 +54,72 @@ body{
     height: 35rem;
 }
 
+.instagram-login{
+    width: 150%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    min-height: 30rem;
+}
+
+.profile1 {
+    
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width:30%;
+    padding: 10rem 0;
+    border: 1px solid lightgray;
+
+}
+
+.profile2{
+    margin-top: 500px;
+    margin-left: 500px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 30%;
+    padding: 2.0rem 0;
+    border: 1px solid lightgray;
+}
+
+.foto-perfil{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 38%;
+}
+
+.logo-foto{
+    margin-top: -480px;
+    position: absolute;
+    width: 15rem;
+}
+
+.continuar{
+    position: absolute;
+    margin-top: -10px;
+    border: 1px solid transparent;
+    background-color: #0095f6;
+    border-radius: 4px;
+    color: white;
+    color: rgba(var(--eca,255,255,255),1);
+    padding: 7px 10px;
+    border-width: 2px;
+    border-style: outset;
+    font: 400 13.3333px Arial;
+    line-height: 18px;
+    font-size: 14px;
+}
